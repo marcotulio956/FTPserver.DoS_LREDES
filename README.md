@@ -1,12 +1,19 @@
 # FTPserver.DoS_LREDES
 Multithread application to provocate DoS of a local FTP server.
 
-Set
+###Set
 ```
-chmod +x pingtest.sh
+$chmod +x pingtest.sh
 ```
 
-Exec
+###Exec
 ````
-/pingtest.sh 192.168.0
+$./pingtest.sh 192.168.0
+$./parseurl.sh cefetmg.br
+````
+
+###Prep Server
+````
+x, y: guest IP
+$ftp 192.168.x.y
 ````
